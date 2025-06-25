@@ -1,0 +1,34 @@
+Why Use Bootstrap?
+Saves time with pre-built styles.
+
+Consistent design across browsers.
+
+Mobile-first and responsive.
+
+Large community and documentation.
+
+
+
+🔧 What Bootstrap Provides:
+Responsive Grid System
+
+Makes websites adjust automatically on different screen sizes (mobile, tablet, desktop).
+
+Based on 12 columns.
+
+Pre-styled Components
+
+Buttons, cards, navbars, forms, modals, carousels, alerts, etc., ready to use.
+
+Built-in CSS Classes
+
+For spacing, typography, colors, alignment, etc.
+Example: text-center, bg-primary, mt-4, etc.
+
+JavaScript Plugins
+
+Interactive components like dropdowns, tooltips, modals, and tabs, using jQuery or Bootstrap’s JS.
+
+Customization
+
+You can customize Bootstrap with SASS variables or by overriding CSS.
