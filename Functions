@@ -1,0 +1,70 @@
+✅ The Sentence You Must Add to Use Bootstrap
+Place this inside the <head> section of your HTML file:
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+***This line activates Bootstrap on your page — so now you can use any of its built-in classes (functions/styles).***
+
+✅ Some Useful Bootstrap "Functions" (Classes)
+These are not functions like in JavaScript — they are CSS classes that do specific things when you apply them.
+
+🧱 Layout & Spacing
+container → centers your content with margins
+
+row / col → for grids
+
+py-5 → padding (top & bottom)
+
+mt-4 → margin-top
+
+mb-3 → margin-bottom
+
+🎨 Text & Colors
+text-center → center your text
+
+text-start / text-end → align left/right
+
+text-primary → blue text
+
+text-dark → dark gray text
+
+text-white → white text
+
+🧰 Backgrounds
+bg-light → light background
+
+bg-dark → dark background
+
+bg-warning → yellow background
+
+bg-danger → red background
+
+🔘 Buttons
+
+<button class="btn btn-primary">Click Me</button>
+<button class="btn btn-danger">Delete</button>
+📝 Typography
+display-1, display-2 → big headline styles
+
+lead → larger paragraph font
+
+✅ Example (You Can Use in Your Page)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Capsian Civilization</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center text-dark">The Capsian Civilization</h1>
+    <p class="lead mt-4">
+      The Capsian people lived in Tunisia thousands of years ago. They hunted, gathered, and began shaping early human culture.
+    </p>
+  </div>
+
+</body>
+</html>
