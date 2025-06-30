@@ -1,0 +1,17 @@
+| **Class**          | **Description**                                                             | **Example**                                                          |
+| ------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `.lead`            | Makes a paragraph stand out (larger and lighter)                            | `<p class="lead">This is a lead paragraph.</p>`                      |
+| `.small`           | Smaller text (≈85% of the parent size)                                      | `<p><small>This is small text.</small></p>`                          |
+| `.text-left`       | Left-aligned text *(Bootstrap 4 only; use `.text-start` in Bootstrap 5)*    | `<p class="text-left">Left aligned</p>`                              |
+| `.text-center`     | Center-aligned text                                                         | `<p class="text-center">Centered</p>`                                |
+| `.text-right`      | Right-aligned text *(Bootstrap 4; use `.text-end` in Bootstrap 5)*          | `<p class="text-right">Right aligned</p>`                            |
+| `.text-justify`    | Justifies the text                                                          | `<p class="text-justify">Justified text</p>`                         |
+| `.text-nowrap`     | Prevents text from wrapping                                                 | `<p class="text-nowrap">No wrap text</p>`                            |
+| `.text-lowercase`  | Transforms text to lowercase                                                | `<p class="text-lowercase">LOWER</p>`                                |
+| `.text-uppercase`  | Transforms text to uppercase                                                | `<p class="text-uppercase">upper</p>`                                |
+| `.text-capitalize` | Capitalizes the first letter of each word                                   | `<p class="text-capitalize">capitalize me</p>`                       |
+| `.initialism`      | Makes `<abbr>` text slightly smaller                                        | `<abbr class="initialism" title="United Nations">UN</abbr>`          |
+| `.list-unstyled`   | Removes bullets and left margin from list                                   | `<ul class="list-unstyled"><li>Item</li></ul>`                       |
+| `.list-inline`     | Displays list items inline                                                  | `<ul class="list-inline"><li class="list-inline-item">One</li></ul>` |
+| `.dl-horizontal`   | Horizontal layout for `<dl>` terms/descriptions *(Removed in Bootstrap 4+)* | *(Deprecated — use grid layout instead)*                             |
+| `.pre-scrollable`  | Scrollable `<pre>` block (max-height: 340px + scrollbar)                    | `<pre class="pre-scrollable">Long code block...</pre>`               |
